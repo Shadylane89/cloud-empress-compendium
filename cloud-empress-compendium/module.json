@@ -1,0 +1,43 @@
+{
+  "id": "cloud-empress-compendium",
+  "title": "Cloud Empress Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "for use with Mothership system implementation by hollowphoton &amp; crew. Heavily recommend using a module for new sheets (ex. Free Form Sheets). The stats/saves that've been renamed for macro purposes are as follows:\nMind=Intellect\nHeart=Strength\nStrength=Combat\nReality=Sanity\nAll tables used are from the free Cloud Empress rulebook by worlds by watt.",
+  "authors": [
+    {
+      "name": "Spookyboogie",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Shadylane89/cloud-empress-compendiums-for-mosh",
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "mosh",
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "mosh",
+      "flags": {}
+    }
+  ]
+}
