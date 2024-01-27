@@ -1,0 +1,44 @@
+{
+  "id": "cloud-empress-compendiums",
+  "title": "Cloud Empress Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "SpookyBoogie",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "cloud-empress-macros",
+      "label": "Cloud Empress Macros",
+      "path": "packs/cloud-empress-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "mosh",
+      "flags": {}
+    },
+    {
+      "name": "cloud-empress-tables",
+      "label": "Cloud Empress Tables",
+      "path": "packs/cloud-empress-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Shadylane89/cloud-empress-compendium-for-mosh",
+  "manifest": "https://github.com/Shadylane89/cloud-empress-compendium/releases/download/v1.0/module.json",
+  "download": "https://github.com/Shadylane89/cloud-empress-compendium/releases/download/v1.0/cloud-empress-compendium.zip",
+  "readme": "README.md"
+}
