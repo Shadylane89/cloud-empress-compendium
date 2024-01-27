@@ -1,0 +1,47 @@
+{
+  "id": "cloud-empress-compendiums",
+  "title": "Cloud Empress Compendiums",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "for use with Mothership system implementation by hollowphoton &amp; crew. \nHeavily recommend using a module for new sheets (ex. Free Form Sheets). The stats/saves that've been renamed for macro purposes are as follows:\nMind=Intellect\nHeart=Strength\nStrength=Combat\nReality=Sanity\nAll tables used are from the free Cloud Empress rulebook by worlds by watt.",
+  "authors": [
+    {
+      "name": "Spookyboogie",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Shadylane89/cloud-empress-compendiums",
+  "packs": [
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "mosh",
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "mosh",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Shadylane89/cloud-empress-compendiums",
+  "manifest": "https://github.com/Shadylane89/cloud-empress-compendiums/releases/download/v1.0/module.json",
+  "download": "https://github.com/Shadylane89/cloud-empress-compendiums/releases/download/v1.0/cloud-empress-compendiums.zip",
+  "readme": "README.md"
+}
